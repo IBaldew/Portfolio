@@ -33,18 +33,18 @@ body{
   margin-top: 7em;
 }
 .header-section h2 {
-  font-family: 'Nunito-Bold';
+  font-family: 'Microsoft Sans Serif';
   font-size: 4em;
   text-transform: capitalize;
   color: #393b3a;
   padding: 0.5em 0 0 0;
 }
 .header-section span {
-  color: #00cfbd;
+  color: #000000;
   font-size: 1em;
 }
 .header-section p {
-  font-family: 'Nunito-Bold';
+  font-family: 'Microsoft Sans Serif';
   font-size: 1.3em;
   color: #393b3a;
 }
