@@ -3,7 +3,7 @@ body{
 	transition: all 1s;
 }
 @font-face {
-    font-family: 'Microsoft Sans Serif';
+    font-family: 'micross';
     src:url(../fonts/micross.ttf) format('truetype');
 }
 @font-face {
@@ -33,9 +33,9 @@ body{
   margin-top: 7em;
 }
 .header-section h2 {
-  font-family: 'Microsoft Sans Serif';
+  font-family: 'micross';
   font-size: 4em;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #393b3a;
   padding: 0.5em 0 0 0;
 }
@@ -44,7 +44,7 @@ body{
   font-size: 1em;
 }
 .header-section p {
-  font-family: 'Microsoft Sans Serif';
+  font-family: 'micross';
   font-size: 1.3em;
   color: #393b3a;
 }
