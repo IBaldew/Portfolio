@@ -175,13 +175,13 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: rgb(27,29,30);
   box-shadow: none;
   height: 0;
 }
 
 /* nav {
-  background: rgb(149, 126, 212);
+  background: rgb(27,29,30);
   box-shadow: none;
   height: 0;
 } */
@@ -229,7 +229,7 @@ ul.side-nav li {
 
 /* ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(48, 122, 207);
+  color: rgb(27,29,30);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
