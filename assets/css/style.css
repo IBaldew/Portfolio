@@ -92,7 +92,7 @@
   letter-spacing: 1px;
   display: inline-block;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
+  -webkit-border-radius: 2px;
 }
 
 /* .readme:hover{
@@ -112,7 +112,7 @@
   display: inline-block;
   margin-top: 1.5em;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
+  -webkit-border-radius: 2px;
 }
 
 .contactme:hover{
@@ -314,12 +314,12 @@ h3 {
 
 /* Original */
 
-/* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
+#intro.section {
+  background: url(../../assets/img/sax_background.mp4) no-repeat top center/cover;
   position: relative;
 } */
 
-#intro.section {
+/* #intro.section {
   background: #a7ffeb repeat;
   position: relative;
 }
@@ -508,7 +508,7 @@ a.hoverline:hover {
 
  /* Style the Image Used to Trigger the Modal */
  #myImg {
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   transition: 0.3s;
 }
