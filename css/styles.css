@@ -11112,3 +11112,53 @@ header.masthead h1, header.masthead .h1 {
   opacity: 0;
   letter-spacing: 0px;
 }
+
+figcaption .sub-title{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  font-size: 13px;
+  top: 50%;
+  margin-top: 30px;
+  transform: translateX(-70px) translateY(0) translateZ(0) rotate(0deg) scale(1);
+  transition: 0.5s;
+  opacity: 0;
+  letter-spacing: 0px;
+}
+
+.grid-item figure:hover{
+  transform: all 0.4s ease-out;
+}
+
+figure:hover figcaption{
+  color: #c34e2e;
+  background: rgba(11, 206, 175, 0.9);
+}
+
+.grid-item figure:hover figcaption:after{
+  opacity: 1;
+  transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
+  transition: all 0.4s ease-out;
+}
+
+.grid-item figure:hover figcaption .fa{
+  transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.grid-item figure:hover figcaption .title{
+  transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
+  transition: 0.4s;
+  margin-top: -10px;
+  opacity: 1;
+}
+
+.grid-item figure:hover figcaption .subtitle{
+  transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
+  transition: 0.6s;
+  opacity: 1;
+}
