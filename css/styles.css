@@ -10993,3 +10993,28 @@ header.masthead h1, header.masthead .h1 {
 #work .container-fluid .work-box:hover .work-box-caption, #work .container-sm .work-box:hover .work-box-caption, #work .container-md .work-box:hover .work-box-caption, #work .container-lg .work-box:hover .work-box-caption, #work .container-xl .work-box:hover .work-box-caption, #work .container-xxl .work-box:hover .work-box-caption {
   opacity: 1;
 }
+
+
+.section-title h3{
+    color:#212529;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.portfolio-nav{
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.portfolio-nav ul{
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+.portfolio-nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  color:#212529;
+  font-family: 'Merriweather Sans', sans-serif;
+}
