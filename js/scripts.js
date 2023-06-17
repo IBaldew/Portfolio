@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
 
-    .portfolio-nav li.click(function(){
+    $('portfolio-nav li').click(function(){
         $('.portfolio-nav .current').removeClass('current');
         $(this).addClass('current');
         var selector = $(this).attr('data-filter');
