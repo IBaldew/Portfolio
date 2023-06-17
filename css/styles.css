@@ -10996,13 +10996,15 @@ header.masthead h1, header.masthead .h1 {
 
 
 .section-title h3{
-    color:#212529;
+    color: #212529;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .portfolio-nav{
   margin: 0 auto;
   margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .portfolio-nav ul{
@@ -11017,4 +11019,21 @@ header.masthead h1, header.masthead .h1 {
   cursor: pointer;
   color:#212529;
   font-family: 'Merriweather Sans', sans-serif;
+}
+
+.portfolio-nav ul li:hover{
+  color: #212529;
+}
+
+.portfolio-nav ul li:active{
+  color: #212529;
+}
+
+.portfolio-nav ul li span{
+  padding: 15px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.portfolio-nav ul li.current span{
+    border-bottom: 2px solid #636464;
 }
