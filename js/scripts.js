@@ -56,8 +56,8 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#work a.work-box'
     });
 
-    // Portfolio
-    window.on("load", function(){
+    // Activate SimpleLightbox plugin for portfolio items
+    $(window).on("load", function(){
         var $container = $('.portfolioContainer');
         $container.isotope({
             filter: '*',
@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
 
-    $('portfolio-nav li').click(function(){
+    $('.portfolio-nav li').click(function(){
         $('.portfolio-nav .current').removeClass('current');
         $(this).addClass('current');
         var selector = $(this).attr('data-filter');
@@ -78,6 +78,8 @@ window.addEventListener('DOMContentLoaded', event => {
         });
         return false;
     });
+
+});
 
     $('#portfolio-item').mixItUp();
 
