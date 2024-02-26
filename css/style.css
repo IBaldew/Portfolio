@@ -422,7 +422,8 @@ ol {
 }
 
 .portfolios-area .gallery-block {
-  padding: 0;
+  width: 100%;
+  height: auto;
 }
 
 .gallery-block {
