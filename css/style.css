@@ -422,8 +422,7 @@ ol {
 }
 
 .portfolios-area .gallery-block {
-  width: 100%;
-  height: auto;
+  padding: 0px;
 }
 
 .gallery-block {
@@ -434,6 +433,15 @@ ol {
   display: block;
   width: 100%;
   height: 600px;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolio-itom {
+  display: block;
+  width: 100%;
+  height: auto;
   background-position: center center;
   position: relative;
   margin-bottom: 30px;
